@@ -8,7 +8,7 @@ cap = cv2.VideoCapture(video)
 
 fps = cap.get(cv2.CAP_PROP_FPS)
 
-dado = []
+dados = []
 
 while True:
     ret, frame = cap.read()
